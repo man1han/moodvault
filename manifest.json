@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Mood Vault",
+  "description": "An easier way to create mood boards for creative explorations.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "16": "/SimpleL.png",
+    "32": "/SimpleL.png",
+    "48": "/SimpleL.png",
+    "128": "/SimpleL.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

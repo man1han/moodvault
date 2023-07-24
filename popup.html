@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mood Vault</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class='top-bar'>
+
+    <div class='top-left'>
+      <div class='logo'></div>
+      <p class='title'>Mood Vault</p>
+    </div>
+
+    <div class='top-right'>
+      <div class='github'></div>
+    </div>
+  </div>
+  <div class='bottom-container'>
+    <div class='main-action-container'>
+      <button id="captureBtn">Capture Mood</button>
+      <button id="viewBoardsBtn">View Vaults</button>
+    </div>
+    <div class='mng-vault'>Manage Vaults</div>
+    <div class='vlt-mgmt-container'>
+      <div class='create-vault-container'>
+        <button id="createFolderBtn">Create Folder</button>
+      </div>
+      <div class='edit-vault-container'>
+        <div class='edit-left'>
+          <label for="folderDropdown">Select folder to<br> rename or delete:</label>
+          <div class="border">
+            <select id="folderDropdown"></select>
+          </div>
+          
+        </div>
+        <div class='edit-right'>
+          <button id="deleteFolderBtn">Delete Folder</button>
+          <button id="renameFolderBtn">Rename Folder</button>
+        </div>
+      </div>
+    </div>
+    <div class='line'></div>
+    <div class='quote'>
+      Creativity is intelligence having fun
+    </div>
+
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
